@@ -1,4 +1,4 @@
-# Repositório para Projeto Integrado para nota da matéria "Banco de dados 1"
+# Repositório do Projeto Integrado para nota da matéria "Banco de dados 1"
 
 # Sobre:
 
