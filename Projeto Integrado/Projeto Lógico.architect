@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<architect-project version="1.0" appversion="1.0.9">
+ <project-name>Projeto Integrado (nao terminado)</project-name>
+ <print-settings numCopies="1" zoom="1.0" pageNumbersPrinted="true" orientation="1" paperWidth="612.0" paperHeight="792.0" leftBorder="50.0" rightBorder="50.0" topBorder="50.0" bottomBorder="50.0" />
+ <project-data-sources>
+  <data-source id="DS0">
+   <property key="Logical" value="PlayPen Database" />
+  </data-source>
+ </project-data-sources>
+ <source-databases>
+ </source-databases>
+ <target-database id="ppdb" dbcs-ref="DS0">
+  <table id="TAB1" populated="true" UUID="046be584-2ae4-469c-a225-fa9bddcd3af8" name="usuarios" objectType="TABLE" physicalName="usuarios" >
+   <remarks>Esta é a tabela com os dados dos usuarios.</remarks>
+   <folder id="FOLTAB11" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL2" populated="true" UUID="c81d0362-4ff1-4413-a179-f6c382ac1b3f" autoIncrement="false" autoIncrementSequenceName="usuarios_id_usuario_seq" defaultValue="" name="id_usuario" nullable="0" physicalName="id_usuario" precision="9" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
+     <remarks>Esta é a PK da tabela &quot;usuarios&quot;.</remarks>
+    </column>
+    <column id="COL3" populated="true" UUID="962ccf68-eb10-4156-a4cc-bd65b259b222" autoIncrement="false" autoIncrementSequenceName="usuarios_email_seq" defaultValue="" name="email" nullable="0" physicalName="email" precision="255" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>Esta é a coluna que possui o email dos usuarios.</remarks>
+    </column>
+    <column id="COL4" populated="true" UUID="0788a26e-726b-4973-9758-b3ba08b6281f" autoIncrement="false" autoIncrementSequenceName="usuarios_senha_seq" defaultValue="" name="senha" nullable="0" physicalName="senha" precision="20" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>Esta é a coluna que possui a senha dos usuarios.</remarks>
+    </column>
+    <column id="COL5" populated="true" UUID="9eac897c-be84-4483-a8b5-daf4068e3ffa" autoIncrement="false" autoIncrementSequenceName="usuarios_nome_seq" defaultValue="" name="nome" nullable="0" physicalName="nome" precision="255" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>Esta é a coluna que possui o nome dos usuarios.</remarks>
+    </column>
+    <column id="COL6" populated="true" UUID="454fe3fe-8035-4f00-a9fe-dcc1af0be1e1" autoIncrement="false" autoIncrementSequenceName="usuarios_sexo_seq" defaultValue="" name="sexo" nullable="0" physicalName="sexo" precision="1" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>Esta é a coluna que possui o sexo dos usuarios.</remarks>
+    </column>
+    <column id="COL7" populated="true" UUID="9f93c5b1-f4d9-46d3-985e-775d0c4fb9a3" autoIncrement="false" autoIncrementSequenceName="usuarios_pontos_seq" defaultValue="" name="pontos" nullable="0" physicalName="pontos" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
+     <remarks>Esta é a coluna que possui o numero de pontos que os usuarios possuem.</remarks>
+    </column>
+    <column id="COL8" populated="true" UUID="43ef73f3-cacd-4e0e-b280-1461f610fdb9" autoIncrement="false" autoIncrementSequenceName="usuarios_profissao_seq" defaultValue="" name="profissao" nullable="0" physicalName="profissao" precision="255" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>Esta é a coluna que possui a profissão dos usuarios.</remarks>
+    </column>
+    <column id="COL9" populated="true" UUID="1038c7c2-6e71-45c6-8fc8-37f0cb7fc3dc" autoIncrement="false" autoIncrementSequenceName="usuarios_foto_de_perfil_seq" defaultValue="" name="foto_de_perfil" nullable="1" physicalName="foto_de_perfil" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2004" userDefinedTypeUUID="5c50e616-a448-40e1-abcd-5bfc04dcc607" >
+     <remarks>Esta é a coluna que possui a foto de perfil dos usuarios.</remarks>
+    </column>
+    <column id="COL10" populated="true" UUID="ea89db89-3de4-4aa5-9e6a-6c1041a84eff" autoIncrement="false" autoIncrementSequenceName="usuarios_id_cargo_seq" defaultValue="" name="id_cargo" nullable="0" physicalName="id_cargo" precision="9" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
+     <remarks>Esta é a FK provinda da tabela &quot;cargos&quot; para a tabela &quot;usuarios&quot;.</remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB13" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB12" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB14" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX11" populated="true" UUID="1d189ee5-f211-4826-963b-53a600a5d442" clustered="false" name="id_usuario" physicalName="id_usuario" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC12" populated="true" UUID="2f06ef26-1e4d-43fc-ae97-9e4716855b78" ascendingOrDescending="UNSPECIFIED" column-ref="COL2" name="id_usuario" physicalName="id_usuario" />
+    </index>
+   </folder>
+  </table>
+  <table id="TAB13" populated="true" UUID="226e7b03-cd7e-403b-966c-c3b482dc1b8d" name="chat" objectType="TABLE" physicalName="chat" >
+   <remarks>Esta é a tabela que possui os dados dos chats.</remarks>
+   <folder id="FOLTAB131" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL14" populated="true" UUID="3faa1b5c-fd73-439d-b8a2-f8c71d475242" autoIncrement="false" autoIncrementSequenceName="chat_id_chat_seq" defaultValue="" name="id_chat" nullable="0" physicalName="id_chat" precision="9" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
+     <remarks>Esta é a coluna que possui a PK da tabela &quot;chat&quot;.</remarks>
+    </column>
+    <column id="COL15" populated="true" UUID="7b6a21f1-a91c-4bc4-bba1-761ed1821ce4" autoIncrement="false" autoIncrementSequenceName="chat_destinatario_seq" defaultValue="" name="id_destinatario" nullable="0" physicalName="id_destinatario" precision="9" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
+     <remarks>Esta é a coluna que possui o ID dos destinatarios dos chats.</remarks>
+    </column>
+    <column id="COL16" populated="true" UUID="3954ca1c-e55e-4788-9ae5-155f40af799e" autoIncrement="false" autoIncrementSequenceName="usuarios_id_do_usuario_seq" defaultValue="" name="id_usuario" nullable="0" physicalName="id_usuario" precision="9" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
+     <remarks>Esta é a FK provinda da tabela &quot;usuarios&quot; para a tabela &quot;chat&quot;.</remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB133" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB132" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB134" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX17" populated="true" UUID="e06fc6af-ce01-4ed5-a492-67e85aa1f911" clustered="false" name="id_chat" physicalName="id_chat" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC18" populated="true" UUID="21a4d9bf-4c2b-4dc6-a6d2-1d4a49f95765" ascendingOrDescending="UNSPECIFIED" column-ref="COL14" name="id_chat" physicalName="id_chat" />
+    </index>
+   </folder>
+  </table>
+  <table id="TAB19" populated="true" UUID="928e81bd-4518-4398-bd68-39c3d4b6ba73" name="ajuda" objectType="TABLE" physicalName="ajuda" >
+   <remarks>Esta é a tabela que possui os dados da ajuda.</remarks>
+   <folder id="FOLTAB191" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL20" populated="true" UUID="a7182736-dc28-4d11-bd9c-ab59af5eaeb6" autoIncrement="false" autoIncrementSequenceName="ajuda_id_ajuda_seq" defaultValue="" name="id_ajuda" nullable="0" physicalName="id_ajuda" precision="9" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
+     <remarks>Esta é a PK da tabela &quot;ajuda&quot;.</remarks>
+    </column>
+    <column id="COL21" populated="true" UUID="b10e7041-8ed7-488c-9af9-26c8b5e8bab0" autoIncrement="false" autoIncrementSequenceName="ajuda_pergunta_seq" defaultValue="" name="pergunta" nullable="0" physicalName="pergunta" precision="512" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>Esta é a coluna que possui a pergunta da ajuda que necessita.</remarks>
+    </column>
+    <column id="COL22" populated="true" UUID="7bc048c5-59f3-4bc8-811c-2f263bd890c2" autoIncrement="false" autoIncrementSequenceName="usuarios_id_do_usuario_seq_1" defaultValue="" name="id_usuario" nullable="0" physicalName="id_usuario" precision="9" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
+     <remarks>Esta é a FK provinda da tabela &quot;usuarios&quot; para a tabela &quot;ajuda&quot;.</remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB193" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB192" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB194" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX23" populated="true" UUID="17c7988d-6c76-4a5c-82b8-93c60d035f7e" clustered="false" name="id_ajuda" physicalName="id_ajuda" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC24" populated="true" UUID="f501f423-f918-4dfb-b104-a10b0838df28" ascendingOrDescending="UNSPECIFIED" column-ref="COL20" name="id_ajuda" physicalName="id_ajuda" />
+    </index>
+   </folder>
+  </table>
+  <table id="TAB25" populated="true" UUID="b22a026d-2da9-475a-a915-35227e880358" name="usuarios_enderecos" objectType="TABLE" physicalName="usuarios_enderecos" >
+   <remarks>Esta é a tabela com os dados dos enderecos dos usuarios.</remarks>
+   <folder id="FOLTAB251" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL26" populated="true" UUID="e6dfbe3b-3ae2-4f9c-9396-cd90d274adfa" autoIncrement="false" autoIncrementSequenceName="usuarios_enderecos_id_endereco_seq" defaultValue="" name="id_endereco" nullable="0" physicalName="id_endereco" precision="9" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
+     <remarks>Esta é a PK da tabela &quot;usuarios_enderecos&quot;.</remarks>
+    </column>
+    <column id="COL27" populated="true" UUID="ab8fb9e8-3a95-412b-81e2-dbc443d3be81" autoIncrement="false" autoIncrementSequenceName="usuarios_enderecos_logradouro_seq" defaultValue="" name="logradouro" nullable="0" physicalName="logradouro" precision="255" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>Esta é a coluna que possui o logradouro dos enderecos.</remarks>
+    </column>
+    <column id="COL28" populated="true" UUID="31854e06-11cc-4cfd-8cbc-ecbcbb011f4d" autoIncrement="false" autoIncrementSequenceName="usuarios_enderecos_numero_seq" defaultValue="" name="numero" nullable="0" physicalName="numero" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
+     <remarks>Esta é a coluna que possui o numero dos enderecos.</remarks>
+    </column>
+    <column id="COL29" populated="true" UUID="cd4d150c-b9c3-4a26-81e9-92cd82644966" autoIncrement="false" autoIncrementSequenceName="usuarios_enderecos_complemento_seq" defaultValue="" name="complemento" nullable="1" physicalName="complemento" precision="255" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>Esta é a coluna que possui o complemento dos enderecos.</remarks>
+    </column>
+    <column id="COL30" populated="true" UUID="8da26386-d6c5-4890-8069-dd9ab23012f2" autoIncrement="false" autoIncrementSequenceName="usuarios_enderecos_bairro_seq" defaultValue="" name="bairro" nullable="0" physicalName="bairro" precision="255" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>Esta é a coluna que possui o bairro dos enderecos.</remarks>
+    </column>
+    <column id="COL31" populated="true" UUID="6f0f6614-cb5a-4892-aa27-352f79c47451" autoIncrement="false" autoIncrementSequenceName="usuarios_enderecos_cidade_seq" defaultValue="" name="cidade" nullable="0" physicalName="cidade" precision="255" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL32" populated="true" UUID="eebbf143-2ce4-4855-8d7a-1ddb86b5e584" autoIncrement="false" autoIncrementSequenceName="usuarios_enderecos_uf_seq" defaultValue="" name="uf" nullable="0" physicalName="uf" precision="2" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
+     <remarks>Esta é a coluna que possui o UF dos enderecos.</remarks>
+    </column>
+    <column id="COL33" populated="true" UUID="b55c30d6-ec87-41f7-9a4f-b8403140df13" autoIncrement="false" autoIncrementSequenceName="usuarios_enderecos_cep_seq" defaultValue="" name="cep" nullable="0" physicalName="cep" precision="8" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
+     <remarks>Esta é a coluna que possui o CEP dos enderecos.</remarks>
+    </column>
+    <column id="COL34" populated="true" UUID="dd9f4e6f-c171-484d-8996-95d542b784d2" autoIncrement="false" autoIncrementSequenceName="usuarios_enderecos_id_do_usuario_seq" defaultValue="" name="id_usuario" nullable="0" physicalName="id_usuario" precision="9" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
+     <remarks>Esta é a FK provinda da tabela &quot;usuarios&quot; para a tabela &quot;usuarios_enderecos&quot;.</remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB253" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB252" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB254" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX35" populated="true" UUID="6dd855d3-8cf0-4a65-a7f2-b6baf42e5b7b" clustered="false" name="id_endereco" physicalName="id_endereco" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC36" populated="true" UUID="fee58178-034a-400c-b78d-e083301cdc91" ascendingOrDescending="UNSPECIFIED" column-ref="COL26" name="id_endereco" physicalName="id_endereco" />
+    </index>
+   </folder>
+  </table>
+  <table id="TAB37" populated="true" UUID="2dd6470e-4535-4a41-be07-ced69c43fe57" name="cargos" objectType="TABLE" physicalName="cargos" >
+   <remarks>Esta é a tabela com os dados dos cargos.</remarks>
+   <folder id="FOLTAB371" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL38" populated="true" UUID="78638f6b-c4f3-4f74-8447-b29039c961a3" autoIncrement="false" autoIncrementSequenceName="cargos_id_cargo_seq" defaultValue="" name="id_cargo" nullable="0" physicalName="id_cargo" precision="9" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
+     <remarks>Esta é a coluna que possui a PK da tabela &quot;cargos&quot;.</remarks>
+    </column>
+    <column id="COL39" populated="true" UUID="c8072dab-3f1e-49a8-a314-2712addd40f6" autoIncrement="false" autoIncrementSequenceName="cargos_nome_cargo_seq" defaultValue="" name="nome_cargo" nullable="0" physicalName="nome_cargo" precision="255" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>Esta é a coluna que possui o nome do cargo.</remarks>
+    </column>
+    <column id="COL40" populated="true" UUID="cf1f1793-5544-4354-a3ce-19e01fd61cde" autoIncrement="false" autoIncrementSequenceName="cargos_descricao_seq" defaultValue="" name="descricao" nullable="0" physicalName="descricao" precision="255" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>Esta coluna possui a descricao dos cargos.</remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB373" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB372" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB374" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX41" populated="true" UUID="7fb1f650-b2fa-4def-9e37-6d01152b8670" clustered="false" name="id_cargo" physicalName="id_cargo" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC42" populated="true" UUID="f5c994eb-c12c-4e68-aae2-5220034ad20f" ascendingOrDescending="UNSPECIFIED" column-ref="COL38" name="id_cargo" physicalName="id_cargo" />
+    </index>
+   </folder>
+  </table>
+  <table id="TAB43" populated="true" UUID="6d3cd28c-50e6-4202-b8d5-c0a715a7c40c" name="chat_conversas" objectType="TABLE" physicalName="chat_conversas" >
+   <remarks>Esta é a tabela com os dados das conversas do chat.</remarks>
+   <folder id="FOLTAB431" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL44" populated="true" UUID="62ec8961-18da-4740-beba-44e26f83c831" autoIncrement="false" autoIncrementSequenceName="chat_conversas_id_conversa_seq" defaultValue="" name="id_conversa" nullable="0" physicalName="id_conversa" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>Esta é a coluna que possui a PK da tabela &quot;chat_conversas&quot;.</remarks>
+    </column>
+    <column id="COL45" populated="true" UUID="f63d98a0-73a4-4f3d-837a-c29322279f99" autoIncrement="false" autoIncrementSequenceName="chat_conversas_conteudo_mensagem_seq" defaultValue="" name="conteudo_mensagem" nullable="0" physicalName="conteudo_mensagem" precision="512" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>Esta é a coluna que possui o conteudo da mensagem.</remarks>
+    </column>
+    <column id="COL46" populated="true" UUID="76d9b701-db99-4a3e-b9c8-b60163300506" autoIncrement="false" autoIncrementSequenceName="chat_conversas_data_hora_seq" defaultValue="" name="data_hora" nullable="0" physicalName="data_hora" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="93" userDefinedTypeUUID="6497d8de-0e00-40d6-a42e-e2adca83be64" >
+     <remarks>Esta é a coluna que possui a data e hora das mensagens.</remarks>
+    </column>
+    <column id="COL47" populated="true" UUID="1f0c9b8f-0a14-425b-9dc8-b1f142dbcfdd" autoIncrement="false" autoIncrementSequenceName="chat_conversas_id_chat_seq" defaultValue="" name="id_chat" nullable="0" physicalName="id_chat" precision="9" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
+     <remarks>Esta é a FK provinda da tabela &quot;chat&quot; para a tabela &quot;chat_conversas&quot;.</remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB433" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB432" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB434" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX48" populated="true" UUID="0c831027-d0e8-4ab0-a2c6-dc7dbf21f8e4" clustered="false" name="id_conversa" physicalName="id_conversa" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC49" populated="true" UUID="97e4b0ea-d8a3-48c2-8411-b0b7511e8c2d" ascendingOrDescending="UNSPECIFIED" column-ref="COL44" name="id_conversa" physicalName="id_conversa" />
+    </index>
+   </folder>
+  </table>
+  <relationships>
+   <relationship id="REL50" populated="true" UUID="3f5b2aae-721e-41a2-afa9-94ea1b7eaf7e" deferrability="7" deleteRule="3" fk-table-ref="TAB25" fkCardinality="7" identifying="false" name="usuarios_usuarios_enderecos_fk" physicalName="usuarios_usuarios_enderecos_fk" pk-table-ref="TAB1" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP51" populated="true" UUID="fa1864e1-6c64-4f6b-9eb0-c981fe1c7ce1" fk-column-ref="COL34" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL2" />
+   </relationship>
+   <relationship id="REL52" populated="true" UUID="8e792696-3898-451d-b342-eb1b6fae87d6" deferrability="7" deleteRule="3" fk-table-ref="TAB19" fkCardinality="7" identifying="false" name="usuarios_ajuda_fk" physicalName="usuarios_ajuda_fk" pk-table-ref="TAB1" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP53" populated="true" UUID="397c2b19-762c-4f54-b7de-4a55f99b62f0" fk-column-ref="COL22" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL2" />
+   </relationship>
+   <relationship id="REL54" populated="true" UUID="1a4bb883-a8e0-4747-9a8c-1337b451f5d7" deferrability="7" deleteRule="3" fk-table-ref="TAB13" fkCardinality="7" identifying="false" name="usuarios_chat_fk" physicalName="usuarios_chat_fk" pk-table-ref="TAB1" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP55" populated="true" UUID="42f02ae6-0e01-49ba-8cc3-0fadded08abc" fk-column-ref="COL16" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL2" />
+   </relationship>
+   <relationship id="REL56" populated="true" UUID="12b61d80-98a2-4f34-87c2-80cf50674f82" deferrability="7" deleteRule="3" fk-table-ref="TAB43" fkCardinality="7" identifying="false" name="chat_chat_conversas_fk" physicalName="chat_chat_conversas_fk" pk-table-ref="TAB13" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP57" populated="true" UUID="0491654c-a6e8-4fb0-ae08-8ea0d7909040" fk-column-ref="COL47" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL14" />
+   </relationship>
+   <relationship id="REL58" populated="true" UUID="e26cafca-19a6-4ef7-89a1-a3c1c2501b2c" deferrability="7" deleteRule="3" fk-table-ref="TAB1" fkCardinality="7" identifying="false" name="cargos_usuarios_fk" physicalName="cargos_usuarios_fk" pk-table-ref="TAB37" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP59" populated="true" UUID="78a2c5c9-0c78-4bd8-888a-1c7e8902f239" fk-column-ref="COL10" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL38" />
+   </relationship>
+  </relationships>
+ </target-database>
+ <ddl-generator type="ca.sqlpower.architect.ddl.PostgresDDLGenerator" allow-connection="false" target-schema="public"> </ddl-generator>
+ <liquibase-settings useSeparateChangeSets="false" generateId="false" idStart="1"/>
+ <create-kettle-job-settings filePath="" jobName="" schemaName="" kettleJoinType="0" savingToFile="true" />
+ <play-pen zoom="1.0" viewportX="0" viewportY="0" relationship-style="rectilinear" names-displayLogicalNames="true" showPrimaryTag="true" showForeignTag="true" showAlternateTag="true" columnVisibility="ALL" relationshipLabelVisibility="true">
+  <table-pane table-ref="TAB1" x="393" y="80" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB13" x="427" y="320" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB19" x="812" y="291" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB25" x="102" y="292" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB37" x="77" y="38" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB43" x="553" y="479" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-link relationship-ref="REL50" pkConnection="0.3813953488372093" fkConnection="0.5972850678733032" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="132"/>
+  <table-link relationship-ref="REL52" pkConnection="0.7290322580645161" fkConnection="0.0" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="129"/>
+  <table-link relationship-ref="REL54" pkConnection="0.7665198237885462" fkConnection="0.288135593220339" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="132"/>
+  <table-link relationship-ref="REL58" pkConnection="0.8245614035087719" fkConnection="0.2967741935483871" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="33"/>
+  <table-link relationship-ref="REL56" pkConnection="0.631578947368421" fkConnection="0.3440366972477064" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="132"/>
+ </play-pen>
+ <critic-manager>
+  <critic-grouping platformType="Generic" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.PrimaryKeyCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.RelationshipMappingTypeCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.EmptyRelationshipCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.AlphaNumericNameCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.AlphaNumericSequenceNameCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SetDefaultOnColumnWithNoDefaultCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SetNullOnNonNullableColumnCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.DuplicateNameCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="DB2" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.DB2UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="H2" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.H2UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="HSQLDB" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.HSQLDBUnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="MySQL" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.MySQLCommentCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.MySQLReservedWordsCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.MySQLUnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="Oracle" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.OraclePhysicalNameCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.OracleReservedWordsCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.OracleUnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="PostgreSQL" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.PostgreSQLReservedWordsCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="SQL Server" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServerUnsupportedFeaturesCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServerReservedWordsCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="SQL Server 2000" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServer2000UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="SQL Server 2005" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServer2005UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+ </critic-manager>
+ <profiles topNCount="10">
+  </profiles>
+  <olap>
+  </olap>
+  <olap-gui>
+  </olap-gui>
+</architect-project>
